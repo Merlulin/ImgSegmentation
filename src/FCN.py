@@ -14,6 +14,7 @@ class IntermediateLayerGetter(nn.ModuleDict):
         if not set(return_layers).issubset([name for name, _ in model.named_children()]):
             raise ValueError("模型中并没有返回层所需要的层结构")
         orig_return_layers = return_layers # 保存下原有返回层，不受后序使用干扰
+        return_layers = {str(k): str(v) for k, v in return_layers.items()}
         # 总有序字典顺序存储需要保留的层结构
         layers = OrderedDict()
         for name, layer in model.named_children():
@@ -82,7 +83,7 @@ def fcn_resnet50(aux, num_classes, pretrain_backbone=False):
         # map_location :
         # 具体来说，map_location参数是用于重定向，比如此前模型的参数是在cpu中的，我们希望将其加载到cuda:0中。
         # 或者我们有多张卡，那么我们就可以将卡1中训练好的模型加载到卡2中，这在数据并行的分布式深度学习中可能会用到。
-        backbone.load_state_dict("resnet50.pth", map_location="cpu")
+        backbone.load_state_dict(torch.load("resnet50.pth", map_location='cpu'))
 
     # FCNhead 的输入通道数
     out_inplanes = 2048
