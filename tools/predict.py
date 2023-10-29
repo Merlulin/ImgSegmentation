@@ -1,15 +1,19 @@
+import csv
 import os
 
 import torch
+from torch.nn import functional as F
 from torch.utils.data import DataLoader
 import torchvision.utils as vutils
 from torchvision import transforms as T
 
 from models import fcn_resnet50
 from datasets.my_dataset import CarvanaSegmentation
+from utils import mask2rle, rle_decode
 
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 from tqdm import tqdm
 
 def plot_pred_segment(img, mask = None, pred = None, epoch = 0, root_dir = './data/pred/'):
@@ -60,9 +64,10 @@ def plot_pred_segment(img, mask = None, pred = None, epoch = 0, root_dir = './da
 
 
 def main():
-
+    submission_path = '../data/submission.csv'
     weight_path = '../weight/model_weight.pth'
     root_dir = '../data/'
+    batch_size = 2
     assert os.path.exists(weight_path), f"weights {weight_path} not found"
     assert os.path.exists(root_dir), f"img root {root_dir} not found"
 
@@ -78,17 +83,51 @@ def main():
     ])
 
     test_dataset = CarvanaSegmentation(root_dir=root_dir, transforms=transforms, mode='test', txt_name='test.txt')
-    test_dataloader = DataLoader(test_dataset, batch_size=1, shuffle=False)
-    # device = 'cuda' if torch.cuda.is_available() else 'cpu'
-    device = 'cpu'
+    test_dataloader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    # device = 'cpu'
     model = model.to(device)
-    with torch.no_grad():
-        for idx, imgs in enumerate(tqdm(test_dataloader)):
-            imgs = imgs.to(device)
-            pred = model(imgs)
-            pred = pred['out']
-            plot_pred_segment(imgs, pred=pred, epoch=idx, root_dir='../data/pred/')
+    print("生成csv文件")
+    with open(submission_path, encoding="utf-8", mode='w', newline='') as f:
+        csv_f = csv.writer(f)
+        csv_f.writerow(['rle_mask'])
+        with torch.no_grad():
+            for idx, imgs in enumerate(tqdm(test_dataloader)):
+                imgs = imgs.to(device)
+                pred = model(imgs)
+                pred = pred['out']
+                pred = F.interpolate(pred, (1280, 1918), mode='bilinear', align_corners=False)
+                pred = torch.sigmoid(pred)
+                # plot_pred_segment(imgs, pred=pred, epoch=idx, root_dir='../data/pred/')
+                pred = pred > 0.5
+                pred_np = pred.cpu().detach().numpy().astype('uint8')
+                masks = [[mask2rle(item)] for item in pred_np]
+                csv_f.writerows(masks)
+                if idx == 5:
+                    break
+
+    print(f"结束生成，有{batch_size * (idx + 1)}行数据")
+
+    mask = pd.read_csv(submission_path)
+    print(mask.head())
+    with open('../data/test.txt', 'r') as f:
+        mask.insert(0, 'img', f.readlines()[:12])
+        mask['img'] = mask['img'].apply(lambda x: x[:-1])
+        print(mask.head())
+    mask.to_csv(submission_path, index=False)
+
 
 
 if __name__ == '__main__':
     main()
+    # df = pd.read_csv("../data/submission.csv")
+    # sample = df.iloc[2]
+    # img, mask = sample[0], sample[1]
+    # mask = rle_decode(mask, (1280, 1918))
+    # fig, ax1 = plt.subplots(nrows=1, ncols=1, figsize=(14, 4))
+    # fig.tight_layout()
+    #
+    # ax1.axis('off')
+    # ax1.set_title('images')
+    # ax1.imshow(mask, cmap='gray')
+    # plt.show()
