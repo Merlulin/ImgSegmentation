@@ -1,0 +1,200 @@
+INFO epoch : 1
+INFO epoch - 1/30:
+     dice score - 0.9636356458944433
+     train loss - 0.13086381975890082
+     val loss - 0.037574073672294615
+     LR rate - [0.0001, 0.0001, 0.001]
+INFO epoch - 1 save the model which dice score : 0.9636356458944433 and val loss : 0.037574073672294615
+INFO epoch : 2
+INFO epoch - 2/30:
+     dice score - 0.9704869578866397
+     train loss - 0.03378298257422798
+     val loss - 0.030742105995030963
+     LR rate - [9.689113204622e-05, 9.689113204622e-05, 0.0009689113204622]
+INFO epoch - 2 save the model which dice score : 0.9704869578866397 and val loss : 0.030742105995030963
+INFO epoch : 3
+INFO epoch - 3/30:
+     dice score - 0.9727576234761406
+     train loss - 0.031699886540060535
+     val loss - 0.028630380748825915
+     LR rate - [9.377113865345655e-05, 9.377113865345655e-05, 0.0009377113865345655]
+INFO epoch - 3 save the model which dice score : 0.9727576234761406 and val loss : 0.028630380748825915
+INFO epoch : 4
+INFO epoch - 4/30:
+     dice score - 0.9705887668273028
+     train loss - 0.028553557494545682
+     val loss - 0.029474234339945456
+     LR rate - [9.063956551818755e-05, 9.063956551818755e-05, 0.0009063956551818755]
+INFO epoch : 5
+INFO epoch - 5/30:
+     dice score - 0.9775132508838877
+     train loss - 0.025565954089603004
+     val loss - 0.02336573957958642
+     LR rate - [8.749592154663483e-05, 8.749592154663483e-05, 0.0008749592154663483]
+INFO epoch - 5 save the model which dice score : 0.9775132508838877 and val loss : 0.02336573957958642
+INFO epoch : 6
+INFO epoch - 6/30:
+     dice score - 0.9773323599029989
+     train loss - 0.02303938516689574
+     val loss - 0.023266308776596013
+     LR rate - [8.433967427912744e-05, 8.433967427912744e-05, 0.0008433967427912743]
+INFO epoch : 7
+INFO epoch - 7/30:
+     dice score - 0.9807715577237747
+     train loss - 0.02143525509711574
+     val loss - 0.0200146689572755
+     LR rate - [8.117024453014075e-05, 8.117024453014075e-05, 0.0008117024453014075]
+INFO epoch - 7 save the model which dice score : 0.9807715577237747 and val loss : 0.0200146689572755
+INFO epoch : 8
+INFO epoch - 8/30:
+     dice score - 0.9804916620254517
+     train loss - 0.02013895360972075
+     val loss - 0.020088201279149336
+     LR rate - [7.798700006942841e-05, 7.798700006942841e-05, 0.0007798700006942841]
+INFO epoch : 9
+INFO epoch - 9/30:
+     dice score - 0.982807390830096
+     train loss - 0.0192914145615171
+     val loss - 0.017990684355883038
+     LR rate - [7.478924812104509e-05, 7.478924812104509e-05, 0.0007478924812104508]
+INFO epoch - 9 save the model which dice score : 0.982807390830096 and val loss : 0.017990684355883038
+INFO epoch : 10
+INFO epoch - 10/30:
+     dice score - 0.9829096639857573
+     train loss - 0.018445213002097956
+     val loss - 0.018052397810799235
+     LR rate - [7.157622639192217e-05, 7.157622639192217e-05, 0.0007157622639192218]
+INFO epoch : 11
+INFO epoch - 11/30:
+     dice score - 0.9836089029031642
+     train loss - 0.017739614825147916
+     val loss - 0.01710074678720797
+     LR rate - [6.834709225327746e-05, 6.834709225327746e-05, 0.0006834709225327746]
+INFO epoch - 11 save the model which dice score : 0.9836089029031642 and val loss : 0.01710074678720797
+INFO epoch : 12
+INFO epoch - 12/30:
+     dice score - 0.9835547980140237
+     train loss - 0.01723283781286548
+     val loss - 0.01711981671259684
+     LR rate - [6.510090957654228e-05, 6.510090957654228e-05, 0.0006510090957654227]
+INFO epoch : 13
+INFO epoch - 13/30:
+     dice score - 0.9843022935530719
+     train loss - 0.01681076694992097
+     val loss - 0.016320694161250312
+     LR rate - [6.183663255563447e-05, 6.183663255563447e-05, 0.0006183663255563447]
+INFO epoch - 13 save the model which dice score : 0.9843022935530719 and val loss : 0.016320694161250312
+INFO epoch : 14
+INFO epoch - 14/30:
+     dice score - 0.9841041242375094
+     train loss - 0.016207139563801536
+     val loss - 0.016312865847173858
+     LR rate - [5.855308560613402e-05, 5.855308560613402e-05, 0.0005855308560613402]
+INFO epoch : 15
+INFO epoch - 15/30:
+     dice score - 0.9845680138644051
+     train loss - 0.01592397388509091
+     val loss - 0.01592605244368315
+     LR rate - [5.52489380827954e-05, 5.52489380827954e-05, 0.000552489380827954]
+INFO epoch - 15 save the model which dice score : 0.9845680138644051 and val loss : 0.01592605244368315
+INFO epoch : 16
+INFO epoch - 16/30:
+     dice score - 0.9854470302076901
+     train loss - 0.01548326982952216
+     val loss - 0.015074663740747115
+     LR rate - [5.19226720411192e-05, 5.19226720411192e-05, 0.000519226720411192]
+INFO epoch - 16 save the model which dice score : 0.9854470302076901 and val loss : 0.015074663740747115
+INFO epoch : 17
+INFO epoch - 17/30:
+     dice score - 0.9841992770924287
+     train loss - 0.015107591321472736
+     val loss - 0.01608969792723656
+     LR rate - [4.857254048910653e-05, 4.857254048910653e-05, 0.00048572540489106534]
+INFO epoch : 18
+INFO epoch - 18/30:
+     dice score - 0.9852313813041238
+     train loss - 0.01480666818918989
+     val loss - 0.01522693001829526
+     LR rate - [4.5196512365661785e-05, 4.5196512365661785e-05, 0.00045196512365661785]
+INFO epoch : 19
+INFO epoch - 19/30:
+     dice score - 0.9859949553714079
+     train loss - 0.014523871593615588
+     val loss - 0.014520610551185467
+     LR rate - [4.179219854861471e-05, 4.179219854861471e-05, 0.00041792198548614714]
+INFO epoch - 19 save the model which dice score : 0.9859949553714079 and val loss : 0.014520610551185467
+INFO epoch : 20
+INFO epoch - 20/30:
+     dice score - 0.9860775330487419
+     train loss - 0.014309680190704324
+     val loss - 0.014375520979656893
+     LR rate - [3.835674999767602e-05, 3.835674999767602e-05, 0.0003835674999767602]
+INFO epoch - 20 save the model which dice score : 0.9860775330487419 and val loss : 0.014375520979656893
+INFO epoch : 21
+INFO epoch - 21/30:
+     dice score - 0.9863672775380752
+     train loss - 0.014033053259310476
+     val loss - 0.01411025502225932
+     LR rate - [3.4886713635556415e-05, 3.4886713635556415e-05, 0.00034886713635556415]
+INFO epoch - 21 save the model which dice score : 0.9863672775380752 and val loss : 0.01411025502225932
+INFO epoch : 22
+INFO epoch - 22/30:
+     dice score - 0.9859021095668569
+     train loss - 0.013745834853719262
+     val loss - 0.014398080822737778
+     LR rate - [3.137782165113512e-05, 3.137782165113512e-05, 0.0003137782165113512]
+INFO epoch : 23
+INFO epoch - 23/30:
+     dice score - 0.9865687384324915
+     train loss - 0.013480170421740588
+     val loss - 0.013865487047416322
+     LR rate - [2.782467099882336e-05, 2.782467099882336e-05, 0.0002782467099882336]
+INFO epoch - 23 save the model which dice score : 0.9865687384324915 and val loss : 0.013865487047416322
+INFO epoch : 24
+INFO epoch - 24/30:
+     dice score - 0.9863551735877991
+     train loss - 0.013305066591676544
+     val loss - 0.013984907648580916
+     LR rate - [2.4220211276354852e-05, 2.4220211276354852e-05, 0.00024220211276354854]
+INFO epoch : 25
+INFO epoch - 25/30:
+     dice score - 0.9869110836702235
+     train loss - 0.01309674022554913
+     val loss - 0.01352066484225147
+     LR rate - [2.055487337832409e-05, 2.055487337832409e-05, 0.0002055487337832409]
+INFO epoch - 25 save the model which dice score : 0.9869110836702235 and val loss : 0.01352066484225147
+INFO epoch : 26
+INFO epoch - 26/30:
+     dice score - 0.9869749994838939
+     train loss - 0.012945735539474031
+     val loss - 0.013423076743150459
+     LR rate - [1.6814958278941684e-05, 1.6814958278941684e-05, 0.00016814958278941683]
+INFO epoch - 26 save the model which dice score : 0.9869749994838939 and val loss : 0.013423076743150459
+INFO epoch : 27
+INFO epoch - 27/30:
+     dice score - 0.987027547639959
+     train loss - 0.012722933141733794
+     val loss - 0.013385430493337267
+     LR rate - [1.2979289851509707e-05, 1.2979289851509707e-05, 0.00012979289851509706]
+INFO epoch - 27 save the model which dice score : 0.987027547639959 and val loss : 0.013385430493337267
+INFO epoch : 28
+INFO epoch - 28/30:
+     dice score - 0.9871980204301722
+     train loss - 0.012531358770587865
+     val loss - 0.013232448510825634
+     LR rate - [9.01091302851232e-06, 9.01091302851232e-06, 9.010913028512319e-05]
+INFO epoch - 28 save the model which dice score : 0.9871980204301722 and val loss : 0.013232448510825634
+INFO epoch : 29
+INFO epoch - 29/30:
+     dice score - 0.9872381624053507
+     train loss - 0.012375241060576895
+     val loss - 0.013152928628465708
+     LR rate - [4.828828728591015e-06, 4.828828728591015e-06, 4.828828728591015e-05]
+INFO epoch - 29 save the model which dice score : 0.9872381624053507 and val loss : 0.013152928628465708
+INFO epoch : 30
+INFO epoch - 30/30:
+     dice score - 0.9873093380647547
+     train loss - 0.012221176053999978
+     val loss - 0.013093488466213731
+     LR rate - [0.0, 0.0, 0.0]
+INFO epoch - 30 save the model which dice score : 0.9873093380647547 and val loss : 0.013093488466213731

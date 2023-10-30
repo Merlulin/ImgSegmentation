@@ -1,0 +1,203 @@
+INFO epoch : 1
+INFO epoch - 1/30:
+     dice score - 0.9580980043785244
+     train loss - 0.10247413410067792
+     val loss - 0.043577205017209054
+     LR rate - [0.0001]
+INFO epoch - 1 save the model which dice score : 0.9580980043785244 and val loss : 0.043577205017209054
+INFO epoch : 2
+INFO epoch - 2/30:
+     dice score - 0.9656201783348533
+     train loss - 0.04193002557334415
+     val loss - 0.036906042344429915
+     LR rate - [9.689113204622e-05]
+INFO epoch - 2 save the model which dice score : 0.9656201783348533 and val loss : 0.036906042344429915
+INFO epoch : 3
+INFO epoch - 3/30:
+     dice score - 0.9670359630210726
+     train loss - 0.04037842899560928
+     val loss - 0.035518406828244524
+     LR rate - [9.377113865345655e-05]
+INFO epoch - 3 save the model which dice score : 0.9670359630210726 and val loss : 0.035518406828244524
+INFO epoch : 4
+INFO epoch - 4/30:
+     dice score - 0.9667141825545068
+     train loss - 0.03733258071576916
+     val loss - 0.03531312011912757
+     LR rate - [9.063956551818755e-05]
+INFO epoch : 5
+INFO epoch - 5/30:
+     dice score - 0.9759394617641673
+     train loss - 0.028887103011645012
+     val loss - 0.026220001419093093
+     LR rate - [8.749592154663483e-05]
+INFO epoch - 5 save the model which dice score : 0.9759394617641673 and val loss : 0.026220001419093093
+INFO epoch : 6
+INFO epoch - 6/30:
+     dice score - 0.9759492182264141
+     train loss - 0.024810082127279757
+     val loss - 0.026208438848455747
+     LR rate - [8.433967427912744e-05]
+INFO epoch - 6 save the model which dice score : 0.9759492182264141 and val loss : 0.026208438848455747
+INFO epoch : 7
+INFO epoch - 7/30:
+     dice score - 0.981867030321383
+     train loss - 0.021824742504532774
+     val loss - 0.020028795071822755
+     LR rate - [8.117024453014075e-05]
+INFO epoch - 7 save the model which dice score : 0.981867030321383 and val loss : 0.020028795071822755
+INFO epoch : 8
+INFO epoch - 8/30:
+     dice score - 0.9829604796334809
+     train loss - 0.019805991875779888
+     val loss - 0.018931432733056593
+     LR rate - [7.798700006942841e-05]
+INFO epoch - 8 save the model which dice score : 0.9829604796334809 and val loss : 0.018931432733056593
+INFO epoch : 9
+INFO epoch - 9/30:
+     dice score - 0.9845655268313838
+     train loss - 0.018199795841519338
+     val loss - 0.016970563570366186
+     LR rate - [7.478924812104509e-05]
+INFO epoch - 9 save the model which dice score : 0.9845655268313838 and val loss : 0.016970563570366186
+INFO epoch : 10
+INFO epoch - 10/30:
+     dice score - 0.9824778381515952
+     train loss - 0.016653940076107245
+     val loss - 0.019373354290192032
+     LR rate - [7.157622639192217e-05]
+INFO epoch : 11
+INFO epoch - 11/30:
+     dice score - 0.9856120731316361
+     train loss - 0.015732505822587166
+     val loss - 0.015966826870891394
+     LR rate - [6.834709225327746e-05]
+INFO epoch - 11 save the model which dice score : 0.9856120731316361 and val loss : 0.015966826870891394
+INFO epoch : 12
+INFO epoch - 12/30:
+     dice score - 0.9867217650600508
+     train loss - 0.014802051188464484
+     val loss - 0.014880171356101831
+     LR rate - [6.510090957654228e-05]
+INFO epoch - 12 save the model which dice score : 0.9867217650600508 and val loss : 0.014880171356101831
+INFO epoch : 13
+INFO epoch - 13/30:
+     dice score - 0.9880784397031747
+     train loss - 0.013684091900158783
+     val loss - 0.013188524478498628
+     LR rate - [6.183663255563447e-05]
+INFO epoch - 13 save the model which dice score : 0.9880784397031747 and val loss : 0.013188524478498628
+INFO epoch : 14
+INFO epoch - 14/30:
+     dice score - 0.9883951282968708
+     train loss - 0.01323124410837069
+     val loss - 0.012682686338895091
+     LR rate - [5.855308560613402e-05]
+INFO epoch - 14 save the model which dice score : 0.9883951282968708 and val loss : 0.012682686338895091
+INFO epoch : 15
+INFO epoch - 15/30:
+     dice score - 0.9888748014674468
+     train loss - 0.01272067672907867
+     val loss - 0.012225059078385432
+     LR rate - [5.52489380827954e-05]
+INFO epoch - 15 save the model which dice score : 0.9888748014674468 and val loss : 0.012225059078385432
+INFO epoch : 16
+INFO epoch - 16/30:
+     dice score - 0.9894979977140239
+     train loss - 0.012160232546327596
+     val loss - 0.011568772321676506
+     LR rate - [5.19226720411192e-05]
+INFO epoch - 16 save the model which dice score : 0.9894979977140239 and val loss : 0.011568772321676506
+INFO epoch : 17
+INFO epoch - 17/30:
+     dice score - 0.9899073107569826
+     train loss - 0.0116944238420005
+     val loss - 0.011143554575449112
+     LR rate - [4.857254048910653e-05]
+INFO epoch - 17 save the model which dice score : 0.9899073107569826 and val loss : 0.011143554575449112
+INFO epoch : 18
+INFO epoch - 18/30:
+     dice score - 0.9896610657374064
+     train loss - 0.011527461996064147
+     val loss - 0.011281840481302317
+     LR rate - [4.5196512365661785e-05]
+INFO epoch : 19
+INFO epoch - 19/30:
+     dice score - 0.9902804161988052
+     train loss - 0.011066427089325162
+     val loss - 0.01074634261027563
+     LR rate - [4.179219854861471e-05]
+INFO epoch - 19 save the model which dice score : 0.9902804161988052 and val loss : 0.01074634261027563
+INFO epoch : 20
+INFO epoch - 20/30:
+     dice score - 0.9906110660702574
+     train loss - 0.010716168136721979
+     val loss - 0.010319160943960442
+     LR rate - [3.835674999767602e-05]
+INFO epoch - 20 save the model which dice score : 0.9906110660702574 and val loss : 0.010319160943960442
+INFO epoch : 21
+INFO epoch - 21/30:
+     dice score - 0.9904890392340866
+     train loss - 0.010537163480249013
+     val loss - 0.010466105372224952
+     LR rate - [3.4886713635556415e-05]
+INFO epoch : 22
+INFO epoch - 22/30:
+     dice score - 0.9908368935772017
+     train loss - 0.010510730030644531
+     val loss - 0.010102648587495672
+     LR rate - [3.137782165113512e-05]
+INFO epoch - 22 save the model which dice score : 0.9908368935772017 and val loss : 0.010102648587495672
+INFO epoch : 23
+INFO epoch - 23/30:
+     dice score - 0.991039778438269
+     train loss - 0.01010333080611362
+     val loss - 0.009853335888143263
+     LR rate - [2.782467099882336e-05]
+INFO epoch - 23 save the model which dice score : 0.991039778438269 and val loss : 0.009853335888143263
+INFO epoch : 24
+INFO epoch - 24/30:
+     dice score - 0.9910498862173043
+     train loss - 0.009863519336669641
+     val loss - 0.00989648270256379
+     LR rate - [2.4220211276354852e-05]
+INFO epoch : 25
+INFO epoch - 25/30:
+     dice score - 0.9911710666675194
+     train loss - 0.009937495721891992
+     val loss - 0.009657258332213935
+     LR rate - [2.055487337832409e-05]
+INFO epoch - 25 save the model which dice score : 0.9911710666675194 and val loss : 0.009657258332213935
+INFO epoch : 26
+INFO epoch - 26/30:
+     dice score - 0.9907335148138159
+     train loss - 0.009709536877400397
+     val loss - 0.01025580825174556
+     LR rate - [1.6814958278941684e-05]
+INFO epoch : 27
+INFO epoch - 27/30:
+     dice score - 0.9914318489093407
+     train loss - 0.009473563228186755
+     val loss - 0.009369701983443663
+     LR rate - [1.2979289851509707e-05]
+INFO epoch - 27 save the model which dice score : 0.9914318489093407 and val loss : 0.009369701983443663
+INFO epoch : 28
+INFO epoch - 28/30:
+     dice score - 0.9914868775536032
+     train loss - 0.009383485996034472
+     val loss - 0.009334092988979583
+     LR rate - [9.01091302851232e-06]
+INFO epoch - 28 save the model which dice score : 0.9914868775536032 and val loss : 0.009334092988979583
+INFO epoch : 29
+INFO epoch - 29/30:
+     dice score - 0.9914846635332295
+     train loss - 0.009255378552820452
+     val loss - 0.009309628207747844
+     LR rate - [4.828828728591015e-06]
+INFO epoch : 30
+INFO epoch - 30/30:
+     dice score - 0.9916166546298009
+     train loss - 0.00915228254674094
+     val loss - 0.009151181759422316
+     LR rate - [0.0]
+INFO epoch - 30 save the model which dice score : 0.9916166546298009 and val loss : 0.009151181759422316
